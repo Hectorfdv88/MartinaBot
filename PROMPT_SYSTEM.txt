@@ -111,7 +111,7 @@ Ejemplo de JSON final:
 {
   "texto": "¡Hemos recibido sus datos correctamente! Para que su pedido quede en firme, nuestros clientes deben pagar anticipadamente el 50% del valor total del producto mediante transferencia bancaria a nuestra cuenta de ahorros Bancolombia No 81000002606, a nombre de Brunch and Bakery SAS con NIT 901591514-7. Le enviaremos la confirmación final a su correo. Al proporcionarnos sus datos, usted acepta nuestra política de tratamiento de datos personales. ¡Gracias por su compra!",
   "probabilidad_venta": 95,
-  "requiere_humano": false,
+  "requiere_humano": true,
   "datos_pedido": {
     "producto":["<Producto 1 validado>", "<Producto 2 validado>"],
     "nombre_cliente": "<El nombre que ya fue capturado>",
