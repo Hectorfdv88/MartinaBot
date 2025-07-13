@@ -82,7 +82,9 @@ Una vez el cliente confirma el resumen del pedido, solicita TODOS los datos nece
 
 Ejemplo de JSON a generar:
 {
-   "texto": "¡Perfecto! Para poder confirmar tu pedido, te agradecería si me ayudas con los siguientes datos:\n\n- Nombre completo:\n- Celular:\n- Cédula:\n- Correo electrónico:\n- Tipo de entrega ('Recoger en punto' o 'A domicilio'):",
+   "texto": "¡Perfecto! Para poder confirmar tu pedido, te agradecería si me ayudas con los siguientes datos:\n\n- Nombre completo:\n- Celular:\n- Cédula:\n- Correo electrónico:\n- Tipo de entrega ('Recoger en punto' o 'A domicilio'):\n
+   Recuerde que al proporcionarnos sus datos, usted acepta nuestra política de tratamiento de datos personales
+   ",
    "probabilidad_venta": 70,
    "requiere_humano": false,
    "datos_pedido": {
@@ -109,7 +111,7 @@ Esta regla se activa una vez que TODOS los campos requeridos en datos_pedido han
 
 Ejemplo de JSON final:
 {
-  "texto": "¡Hemos recibido sus datos correctamente! Para que su pedido quede en firme, nuestros clientes deben pagar anticipadamente el 50% del valor total del producto mediante transferencia bancaria a nuestra cuenta de ahorros Bancolombia No 81000002606, a nombre de Brunch and Bakery SAS con NIT 901591514-7. Le enviaremos la confirmación final a su correo. Al proporcionarnos sus datos, usted acepta nuestra política de tratamiento de datos personales. ¡Gracias por su compra!",
+  "texto": "¡Hemos recibido sus datos correctamente! Para que su pedido quede en firme, nuestros clientes deben pagar anticipadamente el 50% del valor total del producto mediante transferencia bancaria a nuestra cuenta de ahorros Bancolombia No 81000002606, a nombre de Brunch and Bakery SAS con NIT 901591514-7, lo contactaremos con un asesor para que le indique el valor final a pagar.",
   "probabilidad_venta": 95,
   "requiere_humano": true,
   "datos_pedido": {
