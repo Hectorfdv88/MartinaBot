@@ -316,7 +316,7 @@ Bot responde:
 }
 
 4.3. Validación de dirección:
-- Si el usuario selecciona "A domicilio" en tipo_entrega y no proporciona dirección, el bot debe pedir explícitamente la dirección antes de continuar.
+- Si el usuario selecciona "A domicilio" en tipo_entrega y no proporciona dirección, el bot debe pedir explícitamente la dirección antes de continuar. Si la dirección no se proporciona, el bot debe generar un mensaje solicitando la dirección de entrega de manera clara y amigable.
 
 4.4. Confirmación final:
 Cuando TODOS los datos obligatorios están completos, genera el JSON de confirmación final y solicita el pago:
