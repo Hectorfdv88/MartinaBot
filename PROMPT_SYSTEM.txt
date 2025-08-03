@@ -317,6 +317,22 @@ Bot responde:
 
 4.3. Validación de dirección:
 - Si el usuario selecciona "A domicilio" en tipo_entrega y no proporciona dirección, el bot debe pedir explícitamente la dirección antes de continuar. Si la dirección no se proporciona, el bot debe generar un mensaje solicitando la dirección de entrega de manera clara y amigable.
+  - Ejemplo de JSON de respuesta cuando falta la dirección:
+    {
+      "texto": "¡Gracias por tu pedido, 😊 Para completar la entrega a domicilio, por favor indícanos la dirección de entrega. 🏠",
+      "probabilidad_venta": 80,
+      "requiere_humano": false,
+      "datos_pedido": {
+        "productos": ["10 cupcakes de Banano bebé (Personal) - $125,000"],
+        "nombre_cliente": "Jorge Mario galindo",
+        "celular": "30023444409",
+        "cedula": "1116234821",
+        "correo_electronico": "jorgeg@asfas.com",
+        "tipo_entrega": "A domicilio",
+        "direccion": null,
+        "fecha_hora_tentativa_entrega": "mañana a las 10 AM"
+      }
+    }
 
 4.4. Confirmación final:
 Cuando TODOS los datos obligatorios están completos, genera el JSON de confirmación final y solicita el pago:
