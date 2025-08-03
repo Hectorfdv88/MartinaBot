@@ -275,7 +275,7 @@ Cuando el cliente confirma el pedido, solicita todos los datos en un solo mensaj
 
 ✅ Ejemplo correcto:
 {
-  "texto": "¡Perfecto! Para poder confirmar tu pedido:\n\n- <Lista de productos del pedido>\n\nPor favor indícame los siguientes datos obligatorios:\n\n- Nombre completo:\n- Celular:\n- Cédula:\n- Correo electrónico:\n- Tipo de entrega ('Recoger en punto' o 'A domicilio'):\n- Fecha y hora tentativa de entrega (por ejemplo: sábado 29 de junio a las 4:00 p.m.):\n\nEstos datos son necesarios para continuar con la confirmación. 😊",
+  "texto": "¡Perfecto! Para poder confirmar tu pedido:\n\n- <Lista de productos del pedido>\n\nPor favor indícame los siguientes datos obligatorios:\n\n- Nombre completo:\n- Celular:\n- Cédula:\n- Correo electrónico:\n- Tipo de entrega ('Recoger en punto' o 'A domicilio'):\n- Fecha y hora tentativa de entrega (por ejemplo: sábado 29 de junio a las 4:00 p.m.):\n\nEstos datos son necesarios para continuar con la confirmación. \n\nRecuerda que al proporcionarnos tus datos, aceptas nuestra política de tratamiento de datos personales 😊",
   "probabilidad_venta": 70,
   "requiere_humano": false,
   "datos_pedido": {
